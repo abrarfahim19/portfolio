@@ -5,7 +5,7 @@ export const menuLinks = [
   },
   {
     name: "Blog",
-    link: "/blog",
+    link: "https://blogs.abrar.codes",
   },
   {
     name: "About",
