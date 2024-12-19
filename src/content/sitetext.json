@@ -1,0 +1,26 @@
+{
+  "homepage": {
+    "description": "I'm Abrar Fahim, a math whiz turned AI enthusiast. I'm currently pursuing my masters in AI in 🇩🇪, and I've spent the past two years building mobile apps and working with data.",
+    "subtitle": "We offer the best solutions for your needs.",
+    "cta": "Get Started"
+  },
+  "about": {
+    "title": "About Me",
+    "description": "We are a leading company in AI and software development."
+  },
+  "blog": {
+    "title": "Our Latest Blog Posts",
+    "noPosts": "No blog posts available at the moment."
+  },
+  "skills": [
+    "Python",
+    "C++",
+    "Typescript",
+    "React",
+    "Node.js",
+    "Next.js",
+    "Docker",
+    "AWS",
+    "GCP"
+  ]
+}

@@ -3,7 +3,7 @@ import { ModeToggle } from "../ModeToggle";
 
 export const Navbar = () => {
   return (
-    <header className="container flex h-16 items-center justify-between gap-4 border-b-2 border-gray-400">
+    <header className="container flex h-16 max-w-screen-md items-center justify-between gap-4 border-b-2 border-gray-400">
       <div className="flex items-center justify-center">
         {/* <Logo /> */}
         <h1 className="text-2xl font-extrabold">AT</h1>

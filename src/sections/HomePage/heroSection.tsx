@@ -4,10 +4,11 @@ import ShineBorder from "@/components/magicui/shine-border";
 import ShinyButton from "@/components/magicui/shiny-button";
 import { Facebook, GithubIcon, Linkedin } from "lucide-react";
 import Image from "next/image";
+import data from "../../content/sitetext.json";
 
 export const HeroSection = () => {
   return (
-    <section className="container my-4">
+    <section className="container my-4 max-w-screen-md">
       <div className="grid grid-cols-1 justify-items-center gap-4 md:grid-cols-2 md:content-center md:items-center md:gap-8">
         <div className="col-span-1 md:order-2">
           <BlurFade delay={0.5} inView>
@@ -26,7 +27,7 @@ export const HeroSection = () => {
             </ShineBorder>
           </BlurFade>
         </div>
-        <div className="col-span-1 md:order-1 md:w-2/3">
+        <div className="col-span-1 md:order-1">
           <div className="flex flex-col gap-4">
             <BlurFade delay={0.25} inView>
               <h1 className="text-left text-4xl font-light">
@@ -35,12 +36,7 @@ export const HeroSection = () => {
               </h1>
             </BlurFade>
             <BlurFade delay={0.5} inView>
-              <p className="my-2 font-thin">
-                I`m Evren Shah Lorem Ipsum is simply dummy text of the printing
-                and typesetting industry. Lorem Ipsum has been the industry`s
-                standard dummy text ever since the 1500s, when an unknown
-                printer took a galley of type and scrambled it to specimen book.
-              </p>
+              <p className="my-2 font-thin">{data.homepage.description}</p>
             </BlurFade>
 
             <div className="flex w-full justify-between  md:w-2/3 md:gap-4">

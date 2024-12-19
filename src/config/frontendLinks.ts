@@ -7,12 +7,12 @@ export const menuLinks = [
     name: "Blog",
     link: "https://blogs.abrar.codes",
   },
-  {
-    name: "About",
-    link: "/about",
-  },
-  {
-    name: "Contact",
-    link: "/contact",
-  },
+  // {
+  //   name: "About",
+  //   link: "/about",
+  // },
+  // {
+  //   name: "Contact",
+  //   link: "/contact",
+  // },
 ];
